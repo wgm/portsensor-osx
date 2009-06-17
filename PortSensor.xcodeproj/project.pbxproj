@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B80D90C30EE72C1400918E36 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80D90C20EE72C1400918E36 /* Growl.framework */; };
+		B80D90C60EE72C2000918E36 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B80D90C20EE72C1400918E36 /* Growl.framework */; };
+		B80D913E0EE744D400918E36 /* SensorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B80D913D0EE744D400918E36 /* SensorModel.m */; };
+		B8354D760EEAAF2500F32E13 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = B8354D750EEAAF2500F32E13 /* dsa_pub.pem */; };
+		B89502000EEAA42600236A14 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89501FF0EEAA42600236A14 /* Sparkle.framework */; };
+		B89502090EEAA42F00236A14 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B89501FF0EEAA42600236A14 /* Sparkle.framework */; };
+		B89640690EE20542001DABD6 /* FeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = B89640680EE20542001DABD6 /* FeedController.m */; };
+		B89640A00EE21030001DABD6 /* NSXMLNode-utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B896409F0EE21030001DABD6 /* NSXMLNode-utils.m */; };
+		B89643020EE245ED001DABD6 /* PortSensor.icns in Resources */ = {isa = PBXBuildFile; fileRef = B89643010EE245ED001DABD6 /* PortSensor.icns */; };
+		B8A6B18A0EEA01C7002D0E18 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A6B1890EEA01C7002D0E18 /* Header.m */; };
+		B8A6B1F40EEA0AB1002D0E18 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A6B1F20EEA0AB1002D0E18 /* gear.png */; };
+		B8A6B1F50EEA0AB1002D0E18 /* workstation_network.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A6B1F30EEA0AB1002D0E18 /* workstation_network.png */; };
+		B8A6B2D20EEA5699002D0E18 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A6B2D10EEA5699002D0E18 /* refresh.png */; };
+		B8A6B4060EEA785F002D0E18 /* stopwatch_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A6B4040EEA785F002D0E18 /* stopwatch_stop.png */; };
+		B8A6B4070EEA785F002D0E18 /* stopwatch_run.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A6B4050EEA785F002D0E18 /* stopwatch_run.png */; };
+		B8A6B4B10EEA958B002D0E18 /* led_green.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A6B4AE0EEA958B002D0E18 /* led_green.png */; };
+		B8A6B4B20EEA958B002D0E18 /* led_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A6B4AF0EEA958B002D0E18 /* led_yellow.png */; };
+		B8A6B4B30EEA958B002D0E18 /* led_red.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A6B4B00EEA958B002D0E18 /* led_red.png */; };
+		B8FE417A0EEBB2AB00C45EE3 /* ServerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE41790EEBB2AB00C45EE3 /* ServerModel.m */; };
+		B8FE429C0EEBCBCC00C45EE3 /* server_network.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FE429B0EEBCBCC00C45EE3 /* server_network.png */; };
+		B8FE429E0EEBCC0500C45EE3 /* satellite_dish.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FE429D0EEBCC0500C45EE3 /* satellite_dish.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B89640EF0EE21600001DABD6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B89502090EEAA42F00236A14 /* Sparkle.framework in CopyFiles */,
+				B80D90C60EE72C2000918E36 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* PortSensor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortSensor_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* PortSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80D90C20EE72C1400918E36 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = ../Growl.framework; sourceTree = SOURCE_ROOT; };
+		B80D913C0EE744D400918E36 /* SensorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorModel.h; sourceTree = "<group>"; };
+		B80D913D0EE744D400918E36 /* SensorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorModel.m; sourceTree = "<group>"; };
+		B8354D750EEAAF2500F32E13 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		B89501FF0EEAA42600236A14 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../Sparkle.framework; sourceTree = SOURCE_ROOT; };
+		B89640670EE20542001DABD6 /* FeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedController.h; sourceTree = "<group>"; };
+		B89640680EE20542001DABD6 /* FeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedController.m; sourceTree = "<group>"; };
+		B896409E0EE21030001DABD6 /* NSXMLNode-utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSXMLNode-utils.h"; sourceTree = "<group>"; };
+		B896409F0EE21030001DABD6 /* NSXMLNode-utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSXMLNode-utils.m"; sourceTree = "<group>"; };
+		B89643010EE245ED001DABD6 /* PortSensor.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = PortSensor.icns; sourceTree = "<group>"; };
+		B8A6B1880EEA01C7002D0E18 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		B8A6B1890EEA01C7002D0E18 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
+		B8A6B1F20EEA0AB1002D0E18 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		B8A6B1F30EEA0AB1002D0E18 /* workstation_network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workstation_network.png; sourceTree = "<group>"; };
+		B8A6B2D10EEA5699002D0E18 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		B8A6B4040EEA785F002D0E18 /* stopwatch_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopwatch_stop.png; sourceTree = "<group>"; };
+		B8A6B4050EEA785F002D0E18 /* stopwatch_run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopwatch_run.png; sourceTree = "<group>"; };
+		B8A6B4AE0EEA958B002D0E18 /* led_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = led_green.png; sourceTree = "<group>"; };
+		B8A6B4AF0EEA958B002D0E18 /* led_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = led_yellow.png; sourceTree = "<group>"; };
+		B8A6B4B00EEA958B002D0E18 /* led_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = led_red.png; sourceTree = "<group>"; };
+		B8FE41780EEBB2AB00C45EE3 /* ServerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerModel.h; sourceTree = "<group>"; };
+		B8FE41790EEBB2AB00C45EE3 /* ServerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerModel.m; sourceTree = "<group>"; };
+		B8FE429B0EEBCBCC00C45EE3 /* server_network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = server_network.png; sourceTree = "<group>"; };
+		B8FE429D0EEBCC0500C45EE3 /* satellite_dish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satellite_dish.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				B80D90C30EE72C1400918E36 /* Growl.framework in Frameworks */,
+				B89502000EEAA42600236A14 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B8FE41770EEBB29C00C45EE3 /* Model */,
+				B89640670EE20542001DABD6 /* FeedController.h */,
+				B89640680EE20542001DABD6 /* FeedController.m */,
+				B8A6B1880EEA01C7002D0E18 /* Header.h */,
+				B8A6B1890EEA01C7002D0E18 /* Header.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B89501FF0EEAA42600236A14 /* Sparkle.framework */,
+				B80D90C20EE72C1400918E36 /* Growl.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* PortSensor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* PortSensor */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = PortSensor;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B896409E0EE21030001DABD6 /* NSXMLNode-utils.h */,
+				B896409F0EE21030001DABD6 /* NSXMLNode-utils.m */,
+				32CA4F630368D1EE00C91783 /* PortSensor_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8A6B1EE0EEA0A2E002D0E18 /* Icons */,
+				B89643010EE245ED001DABD6 /* PortSensor.icns */,
+				B8354D750EEAAF2500F32E13 /* dsa_pub.pem */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8A6B1EE0EEA0A2E002D0E18 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				B8FE429D0EEBCC0500C45EE3 /* satellite_dish.png */,
+				B8FE429B0EEBCBCC00C45EE3 /* server_network.png */,
+				B8A6B4AE0EEA958B002D0E18 /* led_green.png */,
+				B8A6B4AF0EEA958B002D0E18 /* led_yellow.png */,
+				B8A6B4B00EEA958B002D0E18 /* led_red.png */,
+				B8A6B4040EEA785F002D0E18 /* stopwatch_stop.png */,
+				B8A6B4050EEA785F002D0E18 /* stopwatch_run.png */,
+				B8A6B2D10EEA5699002D0E18 /* refresh.png */,
+				B8A6B1F20EEA0AB1002D0E18 /* gear.png */,
+				B8A6B1F30EEA0AB1002D0E18 /* workstation_network.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		B8FE41770EEBB29C00C45EE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B80D913C0EE744D400918E36 /* SensorModel.h */,
+				B80D913D0EE744D400918E36 /* SensorModel.m */,
+				B8FE41780EEBB2AB00C45EE3 /* ServerModel.h */,
+				B8FE41790EEBB2AB00C45EE3 /* ServerModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* PortSensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PortSensor" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				B89640EF0EE21600001DABD6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortSensor;
+			productInstallPath = "$(HOME)/Applications";
+			productName = PortSensor;
+			productReference = 8D1107320486CEB800E47090 /* PortSensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PortSensor" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* PortSensor */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* PortSensor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				B89643020EE245ED001DABD6 /* PortSensor.icns in Resources */,
+				B8A6B1F40EEA0AB1002D0E18 /* gear.png in Resources */,
+				B8A6B1F50EEA0AB1002D0E18 /* workstation_network.png in Resources */,
+				B8A6B2D20EEA5699002D0E18 /* refresh.png in Resources */,
+				B8A6B4060EEA785F002D0E18 /* stopwatch_stop.png in Resources */,
+				B8A6B4070EEA785F002D0E18 /* stopwatch_run.png in Resources */,
+				B8A6B4B10EEA958B002D0E18 /* led_green.png in Resources */,
+				B8A6B4B20EEA958B002D0E18 /* led_yellow.png in Resources */,
+				B8A6B4B30EEA958B002D0E18 /* led_red.png in Resources */,
+				B8354D760EEAAF2500F32E13 /* dsa_pub.pem in Resources */,
+				B8FE429C0EEBCBCC00C45EE3 /* server_network.png in Resources */,
+				B8FE429E0EEBCC0500C45EE3 /* satellite_dish.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				B89640690EE20542001DABD6 /* FeedController.m in Sources */,
+				B89640A00EE21030001DABD6 /* NSXMLNode-utils.m in Sources */,
+				B80D913E0EE744D400918E36 /* SensorModel.m in Sources */,
+				B8A6B18A0EEA01C7002D0E18 /* Header.m in Sources */,
+				B8FE417A0EEBB2AB00C45EE3 /* ServerModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Volumes/Growl 1.1.4 SDK/Frameworks\"",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PortSensor_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = PortSensor;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Volumes/Growl 1.1.4 SDK/Frameworks\"",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PortSensor_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = PortSensor;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PortSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PortSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
